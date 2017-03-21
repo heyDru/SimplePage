@@ -1,45 +1,76 @@
-<!DOCTYPE html>
 <html>
 
 <head>
-  <title>JavaScript Learning</title>
-  <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="css/reset.css">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <title>JS Learninh</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>-=JS=-</title>
+    <link href="assets/css/reset.css" rel="stylesheet">
+    <link href="modules/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Questrial|Work+Sans" rel="stylesheet">
 </head>
+
 <body>
-    <div class="wrapper">
-      <section>
-        <header>
-          <div class="logo">
-            <a href="/"><img src="http://20dollarlogo.com/wp-content/uploads/2016/08/Logo_TV_2015.png"></a>
-          </div>
-          <section class="menu-login">
-            
-          </section>
+    <div class="container">
+
+        <header class="row header">
+            <div class="col-md-4">
+                <div class="logo">
+                    <img src="assets/img/logo_white.png" class="logoImg">
+                </div>
+            </div>
+            <div class="col-md-8 login">
+                <button class="btn btn-primary pull-right loginBtn">Log in</button>
+            </div>
         </header>
-        <aside>
-          <ul>
-            <li>Log in</li>
-            <li>Sign up</li>
-          </ul>
-        </aside>
-      <section class="content">
-            <article id="page">
-              
-                    <h1 id="colorText">My First Post</h1>
-                    <img src="https://i.ytimg.com/vi/6lt2JfJdGSY/maxresdefault.jpg">
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-                    <p>
-                      Cras at augue lacus. Maecenas sagittis velit ac enim elementum bibendum. Donec quis tortor sed libero imperdiet cursus a nec libero. In magna sapien, dignissim in felis eget, pretium cursus nisl. Donec euismod viverra justo, a malesuada purus fringilla id. Quisque id tortor justo. Donec a nulla at velit tincidunt bibendum. Morbi sodales scelerisque mauris ac mattis.
-                    </p>
-            </article>  
-        </section>
-      </section>
-      <footer>&copy;2017</footer>
+
+        <div class="row main">
+            <aside class="col-md-2 nav">
+                <ul class="nav-list">
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Contacts</a></li>
+                </ul>
+            </aside>
+
+            <article class="col-md-10">
+                <h1 id="colorText" class="text-center articleName">Hello world!</h1>
+                <img class="center-block contentImg" src="assets/img/contentImg.jpg" alt="Picture Is Here">
+                <p class="center-block contentText">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque a vero, fugit, harum accusamus tempore quidem blanditiis.
+                    Laborum voluptatem, nihil sequi distinctio explicabo quod. Placeat nulla sit ullam amet laudantium. Lorem
+                    ipsum dolor sit amet, consectetur adipisicing elit. Atque a vero, fugit, harum accusamus tempore quidem
+                    blanditiis. Laborum voluptatem, nihil sequi distinctio explicabo quod. Placeat nulla sit ullam amet laudantium
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque a vero, fugit, harum accusamus tempore
+                    quidem blanditiis. Laborum voluptatem, nihil sequi distinctio explicabo quod. Placeat nulla sit ullam
+                    amet laudantium Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque a vero, fugit, harum
+                    accusamus tempore quidem blanditiis. Laborum voluptatem, nihil sequi distinctio explicabo quod. Placeat
+                    nulla sit ullam amet laudantium Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque a vero,
+                    fugit, harum accusamus tempore quidem blanditiis. Laborum voluptatem, nihil sequi distinctio explicabo
+                    quod. Placeat nulla sit ullam amet laudantium Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Atque a vero, fugit, harum accusamus tempore quidem blanditiis. Laborum voluptatem, nihil sequi distinctio
+                    explicabo quod. Placeat nulla sit ullam amet laudantium
+                </p>
+            </article>
+        </div>
+
+<div class="row">
+           <footer class="footer">
+            <hr/>    
+            <div class="col-md-12 text-center ">
+                <p class="text-muted copyright">&copy;2017</p>
+            </div>
+            
+    </footer>
+</div>
+
     </div>
-    <script type="application/javascript" src="js/main.js"></script>
-    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+    <script>
+        document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
+    </script>
+        <script type="application/javascript" src="js/main.js"></script>
+
 </body>
+
 </html>

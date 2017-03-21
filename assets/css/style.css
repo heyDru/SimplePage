@@ -1,0 +1,92 @@
+
+
+.header{
+    background-color: #3a85bf;
+    min-height: 95px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.header .logo{
+    padding: 10px;
+    padding-left: 25px;
+}
+
+.header .logoImg{
+    height: 75px;
+    width: auto;
+}
+
+.header .login {
+    padding-top: 25px;
+    padding-right: 35px;
+}
+
+.header .loginBtn {
+    background-color: #3aa8bf;
+    box-shadow: none;
+       border-color: transparent;
+
+}
+
+.header .loginBtn:hover {
+   border-color: transparent;
+}
+
+.main{
+    padding-top:4%;
+}
+
+
+
+.nav{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list {
+    margin: 10px;
+    padding: 0;
+
+}
+
+.main .nav-list li a{
+   font-size: 18px;
+   display: block;
+   padding: 8px;
+   color: slategray;
+}
+
+
+.main .nav-list li a:hover{
+    text-decoration: none;
+    background-color:rgba(58, 133, 191, 0.3);
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+article .articleName{
+    margin-bottom: 20px;
+}
+
+article .contentImg{
+    height: 45%;
+    margin-bottom: 20px;
+}
+
+article .contentText{
+    padding: 10px;
+}
+
+footer .copyright{
+    font-family: 'Work Sans', sans-serif;
+    padding: 20px 0 0 15px; 
+}
+
+ul.my-info{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.copyright{
+    margin-top: 5px; 
+}
